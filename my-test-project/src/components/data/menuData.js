@@ -10,8 +10,9 @@ export const menuData = [
         icon: <RiAdminFill/>
     },
     {
-        title:"Modules",
-        icon:  <MdOutlineViewModule/>
+        icon: <FaUsers />,
+        title:"Users",
+        link : "./users"
     },
     {
         title:"Manage Account",
@@ -35,8 +36,8 @@ export const menuData = [
         ],
     },
     {
-        icon: <FaUsers />,
-        title:"Users",
+        title:"Modules",
+        icon:  <MdOutlineViewModule/>,
         is_parent: true,
         children : [
             {

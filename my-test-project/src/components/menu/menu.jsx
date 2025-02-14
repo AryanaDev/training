@@ -1,6 +1,6 @@
-import HardItems from "@/components/Elements/hardItems";
-import SimpleItems from "@/components/Elements/simpleItems";
-import {menuData} from "@/components/data/menuData";
+import HardItems from "../../components/Elements/hardItems";
+import SimpleItems from "../../components/Elements/simpleItems";
+import {menuData} from "../../components/data/menuData";
 
 export default function Menu() {
 

@@ -43,7 +43,7 @@ export default function HardItems({item}) {
                         You need to map over item.children and render each child properly.*/}
                         {item.children?.map((child, index) => (
                             <div key={index} className="pl-4 py-1 hover:bg-gray-200">
-                                <Link href="/users">{child.title}</Link>
+                                {child.title}
                             </div>
                         ))}
                     </div>
